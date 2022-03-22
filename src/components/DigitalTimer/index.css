@@ -1,0 +1,140 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(#cffcf1, #defafe, #cffcf1, #defafe);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .container-2 {
+    flex-direction: row;
+    max-width: 1140px;
+  }
+}
+
+.timer {
+  font-size: 32px;
+  font-family: 'Roboto';
+  line-height: 1.5px;
+  color: lightgreen;
+  font-weight: bold;
+}
+
+@media screen and (min-height: 576px) {
+  .timer {
+    font-size: 48px;
+  }
+}
+
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  width: 320px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .timer-container {
+    width: 450px;
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .timer-container {
+    width: 600px;
+    height: 450px;
+  }
+}
+.timer-background {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .timer-background {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .timer-background {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.start-stop-reset {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.start-pause {
+  display: flex;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.start-reset {
+  display: flex;
+}
+.start-pause-reset {
+  height: 40px;
+  width: 40px;
+}
+p {
+  align-self: center;
+}
+.reset-container {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+.math {
+  font-size: 40px;
+  align-self: center;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.value {
+  font-size: 20px;
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  height: 30px;
+  width: 60px;
+  text-align: center;
+}
+
+.value-bg {
+  align-self: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 10px;
+}
